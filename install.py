@@ -15,7 +15,7 @@ class tool:
       system=sys()
       os.system("clear")
       logo.ins_tnc()
-      inp=input("\033[1;33m Do you want to install Tool-X [Y/n]> \033[00m")
+      inp=input("\033[1;33m Do you want to install 54 [Y/n]> \033[00m")
       if inp=="y" or inp=="Y":
         os.system("clear")
         logo.installing()
@@ -26,8 +26,8 @@ class tool:
           else:
             os.system(system.sudo+" mkdir "+system.conf_dir+"/54")
           os.system(system.sudo+" cp -r modules core Tool-X.py "+system.conf_dir+"/54")
-          os.system(system.sudo+" cp -r core/Tool-X "+system.bin)
-          os.system(system.sudo+" cp -r core/toolx "+system.bin)
+          os.system(system.sudo+" cp -r core/54 "+system.bin)
+          os.system(system.sudo+" cp -r core/54 "+system.bin)
           os.system(system.sudo+" chmod +x "+system.bin+"/54")
           os.system(system.sudo+" chmod +x "+system.bin+"/54")
           os.system("cd .. && "+system.sudo+" rm -rf 54")
@@ -47,8 +47,8 @@ class tool:
           else:
             os.system("mkdir "+system.conf_dir+"/54")
           os.system("cp -r modules core 54.py "+system.conf_dir+"/54")
-          os.system("cp -r core/Tool-X "+system.bin)
-          os.system("cp -r core/toolx "+system.bin)
+          os.system("cp -r core/54 "+system.bin)
+          os.system("cp -r core/54 "+system.bin)
           os.system("chmod +x "+system.bin+"/54")
           os.system("chmod +x "+system.bin+"/54")
           os.system("cd .. && rm -rf 54")
